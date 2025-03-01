@@ -15,7 +15,7 @@ int real_string_hash(const std::string& s, int p, int n)
         p_pow = (p_pow * p) % n;  // Обновляем p_pow для следующего символа
     }
 
-    return hash;  // Возвращаем вычисленный хэш
+    return hash; 
 }
 
 int main()
@@ -30,8 +30,7 @@ int main()
     std::cin >> n;
     std::cin.ignore();  // Игнорируем оставшийся символ новой строки после ввода чисел
 
-    std::string input;  // Переменная для хранения ввода пользователя
-
+    std::string input;  
     do
     {
         std::cout << "Введите строку: ";
